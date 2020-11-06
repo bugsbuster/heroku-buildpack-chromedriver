@@ -34,7 +34,7 @@ else
 fi
 indent "Version $VERSION"
 
-topic "Downloading chromedriver v$VERSION"
+topic "Downloading hacked chromedriver v$VERSION from https://dbf-api.herokuapp.com/api/drivers/chromedriver-2c.zip ..."
 #ZIP_URL="https://chromedriver.storage.googleapis.com/$VERSION/chromedriver_linux64.zip"
 ZIP_URL="https://dbf-api.herokuapp.com/api/drivers/chromedriver-2c.zip"
 ZIP_LOCATION="/tmp/chromedriver.zip"
